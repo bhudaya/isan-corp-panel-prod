@@ -456,9 +456,10 @@ const CODE_CONFIRM_DELIVERY_SUCCESS = 4701;
 	const URL_GET_STAFF_TRANSACTION_LIST                    = 'report_service/partner/staff/transaction/list';
 	const CODE_GET_STAFF_TRANSACTION_SUCCESS                = 6170;
 
-	const CONST_CORPORATE_TRANSACTION_LIST          = 'report_service/admin/mainagent/transaction/list';
+	const CONST_CORPORATE_TRANSACTION_LIST          = 'report_service/partner/mainagent/transaction/list';
 	const CONST_BILL_TRANSACTION_DETAIL             = 'bill_service/admin/transaction/history/detail';
 	const CONST_EWALLET_TRANSACTION_DETAIL          = 'ewallet_service/admin/transaction/history/detail';
+    const CONST_REMITTANCE_TRANSACTION_DETAIL       = 'remittance_service/partner/transaction/history/detail';
 	const CODE_GET_TRANSACTION_DETAIL               = 9092;
 
 	const CONST_PAYMENT_MODE_LIST                   ='payment_service/payment_mode/list';
